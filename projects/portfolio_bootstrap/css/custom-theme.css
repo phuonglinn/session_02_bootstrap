@@ -12,3 +12,31 @@
     --bs-border-radius-lg: 1.5rem;
     --bs-border-radius-xl: 2rem;
 }
+
+
+body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+.display-1,
+.display-5 {
+    letter-spacing: -2px;
+}
+
+.card {
+    transition: 0.3s;
+    border-radius: var(--bs-border-radius-xl);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.sidebar-box {
+    border-radius: var(--bs-border-radius-lg);
+}
+
+.form-control {
+    border-radius: 14px;
+}
