@@ -33,3 +33,20 @@
     font-weight: 500;
 }
 
+
+.btn-link:hover {
+    color: #0d9488;
+}
+
+.comments-section h4 {
+    font-weight: 700;
+}
+
+.comments-section p {
+    color: #475569;
+}
+
+.comments-section small {
+    color: #94a3b8;
+}
+
